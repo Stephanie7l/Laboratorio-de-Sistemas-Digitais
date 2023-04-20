@@ -1,0 +1,19 @@
+v 4
+file . "tb_funcao2D.vhd" "75abf07b41aaab73807c2708ec569ec2456e3868" "20230320131845.700":
+  entity tb_funcao2d at 3( 31) + 0 on 121;
+  architecture teste of tb_funcao2d at 9( 121) + 0 on 122;
+file . "F2Selected.vhd" "da01488406efe2c7e44d71d5bfaebbd71067f8e3" "20230320125451.247":
+  entity f2_d at 5( 197) + 0 on 109;
+  architecture exa_f2 of f2_d at 15( 358) + 0 on 110;
+file . "tb_somador.vhd" "471d2bcef3d4eee616c8c446433b2dd496763bbd" "20230319235836.042":
+  entity tb_somador at 1( 0) + 0 on 95;
+  architecture teste of tb_somador at 9( 122) + 0 on 96;
+file . "somador2.vhd" "22a5b8d9d57cd7e1dc4209fdffd88485f88a3ad6" "20230319235835.975":
+  entity somador at 4( 173) + 0 on 93;
+  architecture fluxo_de_dados of somador at 13( 378) + 0 on 94;
+file . "tb_f3.vhd" "29d3c39aa9224f8ba5a013fff6b77fe8a0402f71" "20230320125451.273":
+  entity tb_f3 at 1( 0) + 0 on 111;
+  architecture teste of tb_f3 at 7( 78) + 0 on 112;
+file . "funcao2D.vhd" "d7ef0ebf56a94e4a271670bd530fc2f8ffc47448" "20230320131845.678":
+  entity exercicio_2selected at 4( 116) + 0 on 119;
+  architecture funcao2d of exercicio_2selected at 12( 283) + 0 on 120;
