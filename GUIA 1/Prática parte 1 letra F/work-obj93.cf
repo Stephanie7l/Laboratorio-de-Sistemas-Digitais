@@ -1,0 +1,18 @@
+v 4
+file . "funcao1F.vhd" "4cb3004b7abf1e9b343929758a7bc35fea4fc218" "20230320225150.978":
+  entity exercicio_1 at 4( 116) + 0 on 147;
+  architecture funcao1f of exercicio_1 at 12( 267) + 0 on 148;
+file . "tb_funcaoF.vhd" "cd08b3127f9be855cc6fa606edbf67ddbff5b6f7" "20230319203411.952":
+  entity tb_funcaof at 1( 0) + 0 on 123;
+  architecture teste of tb_funcaof at 7( 88) + 0 on 124;
+file . "somador2.vhd" "22a5b8d9d57cd7e1dc4209fdffd88485f88a3ad6" "20230319005549.094":
+  entity somador at 4( 173) + 0 on 117;
+  architecture fluxo_de_dados of somador at 13( 378) + 0 on 118;
+file . "tb_somador.vhd" "e3481629addaa4443ee955f6299ad848ff676c18" "20230319005554.623":
+  entity tb_somador at 1( 0) + 0 on 119;
+  architecture teste of tb_somador at 7( 82) + 0 on 120;
+file . "funcaoF.vhd" "df3ef597905ed831b524b762da7e748ca6882ce5" "20230319203404.583":
+  architecture funcaof of exercicio_1 at 12( 258) + 0 on 122;
+file . "tb_funcao1F.vhd" "42ec0b8b331082d07e29f0fbd8682537d21d9c45" "20230320225412.067":
+  entity tb_funcao1f at 3( 31) + 0 on 155;
+  architecture teste of tb_funcao1f at 9( 121) + 0 on 156;
