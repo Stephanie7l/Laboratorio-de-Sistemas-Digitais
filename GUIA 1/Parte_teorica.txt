@@ -1,0 +1,37 @@
+1) O que é e para que serve VHDL?
+VHDL, ou Very-High speed integrated circuit Hardware Description Language é uma linguagem de descrição de hardware utilizada para modelar sistemas digitais que posteriormente podem ser simulados e testados.
+
+2) Quais as regras de ouro de VHDL?
+Uma das regras de ouro do VHDL é não utilizá-la como uma linguagem de programação. Isso se deve ao fato de ser uma linguagem de descrição de hardware concorrente voltada para a modelagem de sistemas digitais. Outra regra é que é importante ter em mente os circuitos lógicos digitais em mente enquanto se utiliza a linguagem.
+
+3) Qual o conjunto mínimo de ferramentas para se desenvolver códigos em VHDL?
+Um editor de texto para escrever o código, um compilador para traduzir para linguagem de máquina e um simulador para testar.
+
+4) Citar as características básicas da linguagem VHDL.
+VHDL é uma linguagem de execução paralela, que ocorre de forma concorrente, ou seja, as linhas de código serão executadas ao mesmo tempo e não sequencialmente como é de costume no desenvolvimento de algoritmos. Outra característica da linguagem é ser direcionada para a descrição de hardware.
+
+5) Como representar comentários em VHDL?
+Com “--” no início do comentário.
+
+6) Citar boas práticas de codificação que devem ser usadas em VHDL.
+Usar identificadores adequadamente, indentação e comentários pertinentes.
+
+7) O que são declarações ou asserções em VHDL?
+São seções de código terminadas com ponto e vírgula.
+
+8) Como usar uma declaração if, case e loop em VHDL?
+• Toda instrução if tem um componente then e termina com um end if;
+• Cada instrução case é finalizada com end case;
+• Cada instrução de loop tem um loop final correspondente.
+
+9) O que são identificadores em VHDL e qual a maneira adequada para representá-los?
+Identificadores são os nomes dados às variáveis, funções, sinais, portas, etc. A maneira mais adequada para representá-los é utilizando palavras que tenham significados correspondentes a cada função do que estão representando, ou seja, devem ser auto descritivos.
+
+10) Mostrar as palavras reservadas da linguagem VHDL.
+[imagem]
+
+11) Apresentar um estilo adequado para codificação em VHDL.
+Dentre as características para um estilo de codificação em VHDL que prioriza a legibilidade, temos:
+• Identificadores auto descritivos;
+• Utilizar recuos uniformes para cada tipo de função;
+• Sempre comentar nas linhas de código o que elas representam.
