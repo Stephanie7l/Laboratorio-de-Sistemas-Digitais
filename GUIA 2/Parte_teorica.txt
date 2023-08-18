@@ -1,0 +1,41 @@
+1) O que é uma Design Unit em VHDL? 
+Uma Design Unit é uma estrutura básica utilizada em VHDL para descrever o circuito.
+
+2) Cite todas as Design Units que VHDL disponibiliza ao projetista? 
+A VHDL disponibiliza aos projetistas as Design Units Entity, Architecture, Package e Function.
+ 
+3) O que é uma library em VHDL e quais são as libraries fundamentais usadas em um projeto? 
+Uma library é um conjunto de pacotes com elementos e componentes descritos disponíveis para serem utilizados na linguagem VHDL. As principais libraries são a ieee std_logic_1164 e a ieee numeric_std que adicionam novos tipos de dados, funções matemáticas e de conversão de tipo de dado.
+
+4) O que é um package em VHDL e quais packages estão padronizados pela library ieee? 
+Package em VHDL consiste em módulos adicionais para a linguagem VHDL padrão que fazem parte de uma biblioteca. Esses pacotes, ao serem carregados, permitem o uso de novos tipos de dados, constantes e funções para o qual foram desenvolvidos. Os principais pacotes padronizados são: std_logic_1164, numeric_std, numeric_bit, e math_real.
+
+5) Para que serve uma design unit: entity em VHDL?
+Uma entidade serve para definir as entradas e saídas, bem como o tipo de dado dessas, de uma caixa-preta, formando assim, a base para o desenvolvimento da arquitetura do módulo a ser criado.
+
+6) Para que serve uma design unit: architecture em VHDL?
+Para descrever a implementação interna da Entity, ou seja, o que o circuito faz e qual é o seu comportamento.
+
+7) Qual o modelo padrão de codificação de um sistema digital em VHDL? 
+IEEE Standard 1164.
+
+8) Como se define signals em VHDL? 
+É a representação de software de uma conexão. Exemplo de uso em VHDL: signal nome_sinal : tipo [restição]
+
+9) Como se define variables em VHDL? 
+É uma variável, como em C, usada para armazenar informação local. Exemplo de uso em VHDL: variable nome_variavel : tipo [restrição]
+
+10) O que significa síntese de um sistema digital? 
+É o processo de implementação dentro da ferramenta de síntese que traduz sua descrição em VHDL em um dispositivo real.
+
+11) O que é uma simulação funcional? 
+Uma simulação funcional verifica a lógica, ou seja, permite verificar se a funcionalidade do projeto desenvolvido segue o que foi descrito.
+
+12) Quais as condições mínimas necessárias para realização de uma simulação funcional?
+É preciso ter sua descrição em VHDL com pelo menos uma entidade e uma arquitetura para a entidade definida e uma descrição VHDL do testbench.
+ 
+13) O que é um testbench? 
+Um testbench é um código em VHDL que descreve um conjunto de estímulos a serem aplicados nos terminais de entrada dos módulos em teste.
+
+14) Quais palavras reservadas de VHDL são usadas somente para descrever testbenchs em VHDL?
+Assert, report, for loops, wait e failure.
